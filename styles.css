@@ -1,3 +1,15 @@
 ul{
     list-style: none;
 }
+
+li::before{
+    content: "💖";
+}
+
+li{
+    margin: 10px;
+    background-color: lightcyan;
+}
+li:hover{
+    cursor: pointer;
+}
